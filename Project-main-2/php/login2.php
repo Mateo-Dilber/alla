@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 
 ?>
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
         <title>Signup</title>
@@ -51,17 +51,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <?php endif; ?>
     
     <form method="post">
-    <label for="email">Email</label>
-        <input type="=text" name="Email" placeholder="Email"
+        <label for="email">Email</label>
+        <input type="text" name="email" placeholder="Email"
                value="<?= htmlspecialchars($_POST["email"] ?? "") ?>">
         
         <label for="password">Password</label>
-        <input type="password" name="Password" placeholder="Password">
-        <button>Log in</button>
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Log in</button>
     </form>
     
 </body>
-</html> -->
+</html>
+
 
 <html lang="en">
   <head>
